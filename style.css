@@ -29,7 +29,7 @@ body {
 .kw {
 	border-radius: 10px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	padding: 20px;
+	padding: 25px;
 }
 
 .op:hover {
@@ -76,6 +76,7 @@ body {
 .kw {
 	grid-column: 5/6;
 	grid-row: 2/4;
+	overflow: auto;
 }
 
 .jh,
@@ -133,9 +134,36 @@ img {
 	border: 2px solid hsl(263, 100%, 70%);
 }
 
-@media only screen and (max-device-width: 375px) {
+@media only screen and (max-device-width: 800px) {
 	.secmn {
-		grid-template-columns: repeat(3, 1fr);
-		grid-template-rows: repeat(8, 1fr);
+		grid-template-columns: repeat(3, 50%);
+		grid-template-rows: repeat(8, 50%);
+		width: auto;
+		height: auto;
+	}
+
+	.dc {
+		grid-column: 2/3;
+		grid-row: 2/3;
+	}
+
+	.jw {
+		grid-column: 2/3;
+		grid-row: 3/4;
+	}
+
+	.jh {
+		grid-column: 2/3;
+		grid-row: 4/5;
+	}
+
+	.pa {
+		grid-column: 2/3;
+		grid-row: 5/6;
+	}
+
+	.kw {
+		grid-column: 2/3;
+		grid-row: 6/7;
 	}
 }
