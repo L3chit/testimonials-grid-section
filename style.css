@@ -16,7 +16,7 @@ body {
 	min-height: 100vh;
 	min-width: 100vw;
 	margin: 0 auto;
-	padding: 1fr;
+	padding: 1vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -134,10 +134,10 @@ img {
 	border: 2px solid hsl(263, 100%, 70%);
 }
 
-@media only screen and (max-device-width: 800px) {
+@media only screen and (max-device-width: 850px) {
 	.secmn {
-		grid-template-columns: repeat(3, 50%);
-		grid-template-rows: repeat(7, 50%);
+		grid-template-columns: repeat(3, auto);
+		grid-template-rows: repeat(7, auto);
 		width: auto;
 		height: auto;
 	}
