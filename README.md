@@ -47,6 +47,6 @@ Users should be able to:
 
 ## Author
 
-- Website - [L3chit](https://l3chit.pl)
+- Website - [L3chit](https://l3chit.dev)
 - Frontend Mentor - [@L3chit](https://www.frontendmentor.io/profile/l3chit)
 
